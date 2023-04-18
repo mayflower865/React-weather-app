@@ -80,7 +80,7 @@ function App() {
               <span class="credit">|</span>
               <span class="credit">
                 <a
-                  href="https://github.com/mayflower865/Weather-Application"
+                  href="https://github.com/mayflower865/weather.react"
                   target="_blank"
                   rel="noreferrer"
                 >
