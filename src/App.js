@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Weather from "./Weather";
 import React from "react";
 
@@ -32,7 +32,7 @@ function App() {
               </form>
 
               <div class="overview">
-                <h1 id="city"></h1>
+                <h1 id="city">City</h1>
                 <ul>
                   <li>
                     Last updated: <span id="date"></span>
@@ -72,6 +72,7 @@ function App() {
                 <a
                   href="https://www.shecodes.io/graduates/55170-s-may-longfellow"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Coded By May Longfellow
                 </a>
@@ -81,13 +82,18 @@ function App() {
                 <a
                   href="https://github.com/mayflower865/Weather-Application"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   View Written Code
                 </a>
               </span>{" "}
               <span class="credit">|</span>
               <span class="credit">
-                <a href="https://www.instagram.com/tuamor.may/" target="_blank">
+                <a
+                  href="https://www.instagram.com/tuamor.may/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Find May On Instagram
                 </a>
               </span>
@@ -96,7 +102,6 @@ function App() {
         </div>
 
         <Weather />
-      
       </header>
     </div>
   );
