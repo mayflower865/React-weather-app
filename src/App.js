@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-     <Weather />
+     <Weather defaultCity="Clarksville" />
       <footer>
         Coded with 💗 by{" "}
         <a href="https://github.com/mayflower865/weather.react" target="_blank">
