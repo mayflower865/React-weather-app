@@ -8,13 +8,17 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-     <Weather defaultCity="Nashville" />
-      <footer>
-        Coded with 💗 by{" "}
-        <a href="https://github.com/mayflower865/weather.react" target="_blank">
-           May Longfellow
-        </a>
-      </footer>
+        <Weather defaultCity="Nashville" />
+        <footer>
+          Coded with 💗 by{" "}
+          <a
+            href="https://github.com/mayflower865/weather.react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            May Longfellow
+          </a>
+        </footer>
       </div>
     </div>
   );
