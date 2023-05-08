@@ -39,6 +39,7 @@ setCity(event.target.value);
 
 if (weatherData.ready) {
 return (
+  <span class="border">
   <div className="weather">
     <form onSubmit={handleSubmit}>
       <div className="row">
@@ -55,7 +56,7 @@ return (
           <input
             type="submit"
             value="search"
-            className="btn btn-primary w-100"
+            className="btn btn-secondary w-100"
           />
         </div>
       </div>
@@ -63,6 +64,7 @@ return (
     <WeatherInfo data={weatherData} />
     <WeatherForecast coordinates={weatherData.coordinates} />
   </div>
+  </span>
 );
 
 } else {
