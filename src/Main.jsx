@@ -7,7 +7,7 @@ const Main = () => {
     return (
       <div className="main">
         <div className="overlay">
-        <video src={videoBg} autoPlay loop muted />
+        <video src={videoBg} autoPlay loop muted playsInline />
         <div className="content">
         <Weather defaultCity="Nashville" />
         </div>
